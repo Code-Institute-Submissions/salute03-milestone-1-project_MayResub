@@ -1,137 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GROW Kinesis</title>
     <!---------------------------- links-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  </head>
+  <body>
     <header>
-    <!------------------------------------------Navbars-->
-    
-        <nav class="navbar navbar-expand-sm">
-           <a class="navbar-brand" href="#"><span>G.R.O.W.</span> <i>Kinesis</i></a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-           </button>
+      <!------------------------------------------Navbars-->
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active mr-2">
-                <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">gallery</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-                </li> 
-                <li class="nav-item d-block d-sm-none">
-                <a href="/login">Sign In /Sign Up</a> 
-                </li> 
-              </ul>
-              <div class="d-none d-md-block">
-              <p class="navbar-text my-auto mr-2"><i>Sign up with us today!</i></p>
+      <nav class="navbar navbar-expand-sm navbar-fixed-top">
+        <a class="navbar-brand" href="#"
+          ><span>G.R.O.W.</span> <i>Kinesis</i></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active mr-2">
+              <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item d-block d-sm-none">
               <a href="/login">Sign In /Sign Up</a>
-              </div>
-            </div>
-        </nav>
+            </li>
+          </ul>
+          <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2">
+              <i>Sign up with us today!</i>
+            </p>
+            <a href="/login" class="btn btn-lag btn--firstsight btn--dark">Sign In /Sign Up</a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!------------------- First Sight-->
     <section>
-        <div class="container mt-3 firstsight-container">
-           <div class="row">
-               <div class="col-12">
-                   <section class="firstsight jumbotron text-center">
-                     <h1 class="text-uppercase">g.r.o.w</h1>
-                     <h6>Goal Reality Options(or Obstacles) Will(or Way Forward)</h6>
-                     <p><strong>We train .............. You grow!</strong></p>
-                     <button type="button" class="btn btn-dark">Sign Up!</button>
-                    </section>
-               </div>
-           </div>
+       <!--<div class="container-fluid"><a href="#" class="container-logo"><img src="assets/images/growkinesis.jpg" width="100%"></a></div>-->
+      <div class="container-fluid firstsight-container">
+      <div class="opaque-overlay">&nbsp</div>
+        <div class="row">
+          <div class="col-12">
+            <section class="firstsight jumbotron text-center">
+              <h1 class="text-uppercase firstsight-header">g.r.o.w. kinesis!</h1>
+              <h6 class="header-acronym">Goal Reality Options(or Obstacles) Will(or Way Forward)</h6>
+              <br>
+              <p><a href="#" class="firstsight-dumbell"><i class="fas fa-dumbbell"></i></a><strong><i class="header-story"> We train .............. You grow!</i></strong></p>
+              <br>
+              <button class="btn btn-lag btn--firstsight btn--dark">Sign Up!</button>
+            </section>
+          </div>
         </div>
-        
-        <hr>
+      </div>
 
-        <!---------------------benefits-->
-        <div class="container-wrapper">
-           <div class="row">
-               <div class="col-12 col-md-6 my-5">
-                  <h2>Some of the benefits of Personal Training:</h2>
-                  <ul>
-                    <li>Faster & Better results</li>
-					<li>Help you stay motivated</li>
-					<li>Overcome Plateaus</li>
-					<li>Personalise a program</li>
-					<li>Fresh perspective</li>
-                  </ul>
-               </div>
-        
-               <div class="col-12 col-md-6 my-5">
-                  <h2>Some of the benefits of Yoga:</h2>
-                  <ul>
-                    <li>Helps you focus</li>
-					<li>Relaxes your system</li>
-					<li>Helps you sleep deeper</li>
-					<li>Builds muscle strength</li>
-					<li>Calms your mind</li>
-					<li>Makes you happier</li>
-                  </ul>
-               </div>
-           </div>
+      <hr />
+
+      <!---------------------benefits-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 my-5">
+            <h2>Some of the benefits of Personal Training:</h2>
+            <ul>
+              <li>Faster & Better results</li>
+              <li>Help you stay motivated</li>
+              <li>Overcome Plateaus</li>
+              <li>Personalise a program</li>
+              <li>Fresh perspective</li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-6 my-5">
+            <h2>Some of the benefits of Yoga:</h2>
+            <ul>
+              <li>Helps you focus</li>
+              <li>Relaxes your system</li>
+              <li>Helps you sleep deeper</li>
+              <li>Builds muscle strength</li>
+              <li>Calms your mind</li>
+              <li>Makes you happier</li>
+            </ul>
+          </div>
         </div>
-        <hr>
+      </div>
+      <hr />
 
-        <!--------------------- Testimonies-->  
+      <!--------------------- Testimonies-->
+     
 
-        <div class="container-wrapper">
-            <div class="row">
-                <div class="col-12 col-md-6 my-5">
-                    <img src="assets/images/ms-1pic1.jpg" class="rounded-circle mr-3" height="100" width="100">
-                    <div class="media-body">
-                    <p>I've always had issues eating healthy meals.  Eating out and eating junk had become a daily occurence.  Kasia's fantastic lunches and dinners are so tasty but even better everything is fresh and organic.  I have even started to cook, following her wonderful and easy recipes.  I've lost weight and feel great!</p>
-                    <p>-Sharon Hamilton</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 my-5">
-                    <img src="assets/images/ms-1pic1.jpg" class="rounded-circle mr-3" height="100" width="100">
-                    <div class="media-body">
-                    <p>I've always had issues eating healthy meals.  Eating out and eating junk had become a daily occurence.  Kasia's fantastic lunches and dinners are so tasty but even better everything is fresh and organic.  I have even started to cook, following her wonderful and easy recipes.  I've lost weight and feel great!</p>
-                    <p>-Sharon Hamilton</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 my-5">
-                    <img src="assets/images/ms-1pic1.jpg" class="rounded-circle mr-3" height="100" width="100">
-                    <div class="media-body">
-                    <p>I've always had issues eating healthy meals.  Eating out and eating junk had become a daily occurence.  Kasia's fantastic lunches and dinners are so tasty but even better everything is fresh and organic.  I have even started to cook, following her wonderful and easy recipes.  I've lost weight and feel great!</p>
-                    <p>-Sharon Hamilton</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 my-5">
-                    <img src="assets/images/ms-1pic1.jpg" class="rounded-circle mr-3" height="100" width="100">
-                    <div class="media-body">
-                    <p>I've always had issues eating healthy meals.  Eating out and eating junk had become a daily occurence.  Kasia's fantastic lunches and dinners are so tasty but even better everything is fresh and organic.  I have even started to cook, following her wonderful and easy recipes.  I've lost weight and feel great!</p>
-                    <p>-Sharon Hamilton</p>
-                    </div>
-                </div>
+      <div class="container-fluid container-testimony">
+        <h2 class="testimony-header text-center"><em><i>Testimonies:</i></em></h2>
+        <div class="row">
+          <div class="col-12 col-md-6 my-5">
+          <div class="img-wrapper">
+            <img
+              src="assets/images/ms-1pic1.jpg"
+              class="rounded-circle mr-3"
+              height="100"
+              width="100"
+            />
+          </div>
+            <div class="media-body">
+              <p class="media-content">
+                I've always had issues eating healthy meals. Eating out and
+                eating junk had become a daily occurence. Kasia's fantastic
+                lunches and dinners are so tasty but even better everything is
+                fresh and organic. I have even started to cook, following her
+                wonderful and easy recipes. I've lost weight and feel great!
+              </p>
+              <p>-Sharon Hamilton</p>
             </div>
+          </div>
+          <div class="col-12 col-md-6 my-5">
+          <div class="img-wrapper">
+            <img
+              src="assets/images/ms-1pic1.jpg"
+              class="rounded-circle mr-3"
+              height="100"
+              width="100"
+            />
+          </div>
+            <div class="media-body">
+              <p class="media-content">
+                I've always had issues eating healthy meals. Eating out and
+                eating junk had become a daily occurence. Kasia's fantastic
+                lunches and dinners are so tasty but even better everything is
+                fresh and organic. I have even started to cook, following her
+                wonderful and easy recipes. I've lost weight and feel great!
+              </p>
+              <p>-Sharon Hamilton</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-none d-sm-block my-5">
+          <div class="img-wrapper">
+            <img
+              src="assets/images/ms-1pic1.jpg"
+              class="rounded-circle mr-3"
+              height="100"
+              width="100"
+            />
+          </div>
+            <div class="media-body">
+              <p class="media-content">
+                I've always had issues eating healthy meals. Eating out and
+                eating junk had become a daily occurence. Kasia's fantastic
+                lunches and dinners are so tasty but even better everything is
+                fresh and organic. I have even started to cook, following her
+                wonderful and easy recipes. I've lost weight and feel great!
+              </p>
+              <p>-Sharon Hamilton</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-none d-sm-block my-5">
+          <div class="img-wrapper">
+            <img
+              src="assets/images/ms-1pic1.jpg"
+              class="rounded-circle mr-3"
+              height="100"
+              width="100"
+            />
+          </div>
+            <div class="media-body">
+              <p class="media-content">
+                I've always had issues eating healthy meals. Eating out and
+                eating junk had become a daily occurence. Kasia's fantastic
+                lunches and dinners are so tasty but even better everything is
+                fresh and organic. I have even started to cook, following her
+                wonderful and easy recipes. I've lost weight and feel great!
+              </p>
+              <p>-Sharon Hamilton</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <footer>
-    
+       <div class="container-fluid footer-container">
+           <div class="row">
+               <div class="col-sm-4">
+                  <a href="#"><img src="assets/images/growkinesis1.jpg"  class="footer-logo"></a>
+               </div>
+                       <div class="col-sm-4 contact-details">
+		                    <div class="inline-block">
+		                     	<h2>Grind with Grow Kinesis</h2>
+		                     	<h5><i class="fas fa-at"></i></h5>
+		                     	<h5>1341 Allen avenue, Vitoria Island, Lagos Nigeria.</h5>
+		                        <h6><i class="fas fa-mobile-alt"></i><i>+2348140578690, +2348150674710</i></h6>
+		                        <h6><i class="fas fa-paper-plane"></i><em><i>growkinesis@gmail.com</i></em></h6>
+		                    </div>
+		                </div>
+		      <div class="col-sm-4 social-links">
+                 <h5  class="uppercase general-sub">Social</h5>
+                 <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                       <a target="_blank" href="#">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                           <span class="sr-only">Facebook</span>
+                       </a>
+                    </li>
+                     <li class="list-inline-item">
+                       <a target="_blank" href="#">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <span class="sr-only">Twitter</span>
+                       </a>
+                    </li>
+                     <li class="list-inline-item">
+                       <a target="_blank" href="#">
+                           <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           <span class="sr-only">LinkedIn</span>
+                       </a>
+                    </li>
+                     <li class="list-inline-item">
+                       <a target="_blank" href="#">
+                           <i class="fa fa-pinterest" aria-hidden="true"></i>
+                           <span class="sr-only">Pinterest</span>
+                       </a>
+                    </li>
+                     <li class="list-inline-item">
+                       <a target="_blank" href="#">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           <span class="sr-only">Instagram</span>
+                       </a>
+                    </li>
+                     <li class="list-inline-item">
+                       <a target="_blank" href="#">
+                           <i class="fa fa-youtube" aria-hidden="true"></i>
+                           <span class="sr-only">Youtube</span>
+                       </a>
+                    </li>
+                 </ul>
+		      </div>
+           </div>
+       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>

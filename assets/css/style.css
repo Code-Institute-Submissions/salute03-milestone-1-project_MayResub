@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,200,300,400,500,600,700&display=swap');
 
 
 /*-----------------------------Navbar---*/
@@ -7,8 +7,126 @@
     background-color: #000;
 }
 
-.firstsight-container {
-    height: 100hv;
+.navbar-brand {
+    font-weight:700;
+    color:#fff;
 }
 
+.navbar-text i {
+    color: #fff;
+}
 
+.container-logo {
+    margin-left: 0;
+    margin-right: 0;
+    height: 35px;
+    position: relative;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    border: 0;
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+/*-----------------------------------First Sight-----------------*/
+.firstsight-container {
+    height: 100vh;
+
+    background: url(../images/ms-1pic2.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.firstsight-header {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.firstsight-dumbell {
+    color: #fff;
+}
+
+.header-acronym {
+    font-size: 30px;
+    color: #bfd6ec;;
+    font-weight: 700;
+}
+
+.header-story {
+    color: red;
+    font-size: 20px; 
+}
+
+/*-------------------------------------Testimonies----*/
+
+
+.container-testimony {
+    background-color: #c1efcb;
+}
+
+.media-content {
+    margin-top: 3em;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+/*---------------------------------- button--------*/
+
+.btn--firstsight {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--dark {
+    color: white;
+    background-color: #1be449;
+    border-color: #495057;
+}
+
+/*---------------------------------footer----------*/
+
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-logo {
+   height: 100px;
+    margin: 40px;
+    
+}
