@@ -51,14 +51,13 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item d-block d-sm-none">
-              <a href="/login" class="nav-link">Sign In /Sign Up</a>
+              <a href="login.html" class="nav-link">Login</a>
             </li>
           </ul>
           <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2">
-              <i>Sign up with us today!</i>
+              <i>Let's get you started!</i>
             </p>
-            <a href="/login" class="btn btn-lag btn--firstsight btn--dark">Sign In /Sign Up</a>
           </div>
         </div>
       </nav>
@@ -76,7 +75,8 @@
               <br>
               <p><a href="gallery.html" class="firstsight-dumbell"><i class="fas fa-dumbbell"></i></a><strong><i class="header-story"> We train .............. You grow!</i></strong></p>
               <br>
-              <button class="btn btn-lag btn--firstsight btn--dark">Sign Up!</button>
+              <p class="first-sight-message"><i>Sign Up With Us Today!</i></p>
+              <button class="btn btn-lag btn--firstsight btn--dark" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
             </section>
           </div>
         </div>
@@ -205,10 +205,10 @@
     <footer>
        <div class="container-fluid footer-container">
            <div class="row">
-               <div class="col-sm-4">
+               <div class="col-12 col-md-6 col-lg-4">
                   <a href="#"><img src="assets/images/growkinesis1.jpg"  class="footer-logo"></a>
                </div>
-                       <div class="col-sm-4 contact-details">
+                       <div class="col-12 col-md-6 col-lg-4 contact-details">
 		                    <div class="inline-block">
 		                     	<h4>Grind with Grow Kinesis</h4>
 		                     	<h6><i class="fas fa-at"></i></h6>
@@ -217,8 +217,8 @@
 		                        <p><i class="fas fa-paper-plane"></i><em><i>growkinesis@gmail.com</i></em></p>
 		                    </div>
 		                </div>
-		      <div class="col-sm-4 social-links">
-                 <h5  class="uppercase general-sub">Social</h5>
+		      <div class="col-12 col-md-6 col-lg-4 social-links">
+                 <h5  class="uppercase general-sub">Socials</h5>
                  <ul class="list-inline fa-social-icons">
                     <li class="list-inline-item">
                        <a target="_blank" href="#">
@@ -260,6 +260,46 @@
 		      </div>
            </div>
        </div>
+    
+     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign Up to Whiskey Drop!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input type="name" class="form-control" id="firstname" placeholder="First Name">
+           </div>
+           <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input type="name" class="form-control" id="lastname" placeholder="Last Name">
+           </div>
+           <div class="form-group">
+               <label for="exampleInputEmail1">Email address</label>
+               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email">
+               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+           </div>
+           <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password">
+           </div>
+           <div class="form-group">
+              <label for="repeatpassword">Repeat Password</label>
+              <input type   ="password" class="form-control" id="repeatpassword" placeholder="Repeat Password">
+           </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>    
+
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
