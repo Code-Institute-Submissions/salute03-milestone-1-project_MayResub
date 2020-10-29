@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,200,300,400,500,600,700&display=swap');
 
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 
 /*-----------------------------Navbar---*/
 
@@ -35,8 +40,10 @@
     color:#c1efcb;
 }
 
-.navbar .navbar-toggler-icon {
-    border: 0;
+
+.navbar-toggler-icon i {
+    color:#1be449;
+    border: 0px;
 }
 
 
@@ -52,7 +59,7 @@ section {
 .firstsight-container {
     height: 100vh;
 
-    background: url(../images/ms1girl4.jpg) no-repeat bottom right fixed; 
+    background: url(../images/EOP_9282.jpg) no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -91,7 +98,7 @@ section {
      color:#c1efcb;
 }
 
-.header-acronym {
+.first-sight-info {
     font-size: 30px;
     color: #bfd6ec;;
     font-weight: 700;
@@ -150,6 +157,11 @@ section {
     border-color: rgb(15, 17, 16);
 }
 
+.btn-success {
+    color: #000;
+    background-color: #1be449;
+}
+
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
@@ -181,19 +193,23 @@ footer {
 }
 
 .fa-social-icons li a i {
-     width: 32px;
+    width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #000;
+    background:#fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+.fa-social-icons li a i:hover {
+    background:  #525252;
+} 
 
 .contact-details {
     text-align: center;
@@ -217,50 +233,26 @@ footer {
 
 /*---------------------------------about----------*/
 
-.ab-body {
-    clear: both;
-    margin-top: 2px;
-}
-
-.ab-pic1 {
-	width: 100%;
-	height: auto;
-	padding-bottom: 30px;
-    position: relative;
-    bottom: 50%;
-    left: 50%;
-}
-
-.ab-pic {
-	width: 100%;
-	height: auto;
-	padding-bottom: 30px;
-    padding-left: 50px;
-}
-
-.ab-photo {
-    border: 2px solid #fff;
-}
 
 .pels {
     height: 100%;
     width: 100%;
     position: center;
+    overflow: hidden;
+    margin-top: 3px;
+    padding-top: 70px;
 }
 
-.pels-info {
+.pels i {
     font-size: 110%;
     letter-spacing: auto;
     color: #a2e9b2;
-
-
 }
 
 .pels img {
     float: left;
     overflow: auto;
-    border: 2px solid #fff;
-    margin-left: 2px;
+    padding-right: 20px;
 }
 
 /*---------------------------------media queries----------*/
