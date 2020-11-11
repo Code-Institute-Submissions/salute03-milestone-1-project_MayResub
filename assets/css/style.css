@@ -223,7 +223,8 @@ footer {
     clear: both;
     column-count: 4;
     line-height: 0;
-    column-gap: 0px;
+    column-gap: 0px; 
+    padding-top: 70px; 
 }
 
 #pics a img {
@@ -233,6 +234,9 @@ footer {
 
 /*---------------------------------about----------*/
 
+.pels-absection {
+    padding-bottom: 100px;
+}
 
 .pels {
     height: 100%;
