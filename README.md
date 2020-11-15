@@ -1,12 +1,12 @@
 # Grow Kinesis
 
-### [Live Site](https://sean-mc-mahon.github.io/ms1virtualireland/index.html)
+### [Live Site](https://salute03.github.io/milestone-1-project/)
 
-### [GitHub](https://github.com/Sean-Mc-Mahon/ms1virtualireland)
+### [GitHub](https://github.com/salute03/milestone-1-project)
 
-![Various Devices](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-responsive.JPG)
+![Various Devices](https://github.com/salute03/milestone-1-project/assets/wireframes/responsive.jpg)
 
-Grow KInesis is a Milestone 1 project, it is part of the Fullstack Software Development Course of [Code Institute](https://codeinstitute.net/).
+Grow KInesis is a Milestone 1 project, it is part of the Fullstack WEb Development Course of [Code Institute](https://codeinstitute.net/).
 
 ## Table of Contents
 
@@ -21,7 +21,6 @@ Grow KInesis is a Milestone 1 project, it is part of the Fullstack Software Deve
 - [**User Stories**](#user-stories)
 - [**Design**](#design)
   - [**Libraries**](#libraries)
-  - [**Color Scheme**](#color-scheme)
   - [**Typography**](#typography)
 - [**Wireframes**](#wireframes)
 
@@ -46,40 +45,91 @@ Grow KInesis is a Milestone 1 project, it is part of the Fullstack Software Deve
 - [**Acknowledgements**](#acknowledgements)
 
 ---
-
+ 
 ## Project Overview
 
-VI is a virtual tour of Ireland aimed at people planning on visiting Ireland, people who cannot visit or people who want to look back on trips to some of Ireland’s most beautiful sites.
+This is a front-end web page for an outdoor fitness trainer based in Lagos Nigeria, Pelumi.  Pelumi is setting up his own business providing a range of personal training, group workouts and using sport as a mode of training.
+
+
+He wanted a website that showcases what he offers to his clients and potential clients, how he can help his clients benefit from having a personal trainer, importance of yoga and how it greatly improves more than just flexibility & having fun.  
+He want the gallery to showcase pictural representation of the of how his clients achieve their body goals following his training style and how he is uniting diffferent people with the same goals, there by creating friendship outside training.
+
+This webpage was created as the first milestone project as part of the Code Institute ‘Full Stack Development’ course.  
+
+The deployed version can be viewed at: https://salute03.github.io/milestone-1-project/
+
+This is for educational purposes only.
 
 ## UX
 
-VI is aimed at B2C users. Users expect to be able to experience a place and learn more about it without physically being there. The content is a mix of historical, mythological, anecdotal, cultural and geological information on Ireland’s most famous sites aided by imagery (my own photographs). The content is divided into pages based on regions; West, North and South with a direct link to each from the homepage and links to sections of pages for specific locations.
+Grow Kinesis is aimed at B2C users. This website is for Pelumi’s current & potential clients to see what services he provides and how he delivers his services. The services currently provided are personal training; either one to one or in a small group, yoga trainig and also, Using sport as medium of keeping his clients fit and happy. 
+
+It will hopefully bring more clients who will be using more of his services to get the perfect body shape they want with sound and clear mind.  Personal training, yoga, football and basketball, workout drills.   
+
 
 ### UX Planes
 
-#### Scope Plane
+### Suface
 
-Home page with own designed animated logo and video links to each 'tour'. Each tour to comprise three locations navigated by an image gallery and each location to incorporate a carousel and text describing history and mythology. About page and contact page to encourage user engagement. Fully responsive and consistent design.
+The website is designed with blended colors of Black, Green, White, red, two shades of lemon green and light gray. The colors were inspired from the backdround of the pictures.
+I used Roboto font for the texts contents but made changes with <i></i> italics in some text content.
+I used a dumbell icon from font awesome in the home page which links to the gallery page.
+Opaque overlay is used to reduce the brightness of the background image in the first of the website which blended the black color of the navbars section and the benefit section.
+Two of the testimonies are hidden on a mobile platform inorder not to make the mobile content too cumbersome.
 
-Future sprints to use 360 degree views and tours of the South of Ireland as well as seperate city tours.
+#### Skeleton
+Navigation Bar:
+The fixed navigation bar allows users to navigate around the website with ease by clicking on the various pages. The hover selector changes this to light green when hovering over a page link. 
+The navigational bar collapses down to a hamburger icon dropdown menu when in mobile screen size view. The name "G.R.O.W. Kinesis" is linked to the  home page to make is easier for the users to go back to home page without scrolling.
+The dumbell image (font awesome) is a link to the gallery, while the sign up! button provides a form for sign up data.
 
-#### Structure Plane
+Footer:
+It contains the contact informations and location of Grow Kinesis.
+it contains the social icons, which are ment to link to Pelumi's social media handles but it has not been provided at this time but when provided, they will be linked.
+The logo in the footer is clickable and servers a navigation back to the top of the page from the footer.
 
-Each tour to be accessible from home page in non linear fashion from nav bar or from image gallery as it is impossible to know which tour user may be most interested in. Within each tour the in formation and images is presented in linear fashion for narrative clarity with sub nav giving option of jumping to individual sections for ease of use of user.
 
-#### Skeleton Plane
+#### Structure 
 
-Shape to remain consistent. Images are to be dominant with text following the following order; history & geology ('sans-serif' dark grey font), culture & mythology('marcellus' green font). Features kept to a minimum and simple navigation, no need for searching filters orpagination. Logo and heading to navigate to home page. Social links and copyright in footer.
+The home page is divided into five sections, 
+1.The Navigation Bar which aids a smooth navigation from one page to another.
+2.The First sight which holds the texts, form and a bumbell image that links to bthe gallery.
+3.The benefits
+4.The testimonies which contains the images of clients who have had a great expreince with Grow kinesis. 
+5.The footer which contains the logo, contact informatons and social links.
 
-#### Surface Plane
+The pictures in the gallery page are arranged to display in four columns on large devices and tablets but two columns on mobile devices. And each of the pictures can open in seperate pages across all devices. 
 
-Fonts of header, body and footer to contrast in size and style as appropriate. Overlays used on images to ensure contrast while text appears on hover. Text hidden on images for small devices on carousels.
+The About page contains Pelumi’s picture and texts of  his achivements and goals.
 
-### User Stories
+All these make the website very interactive.
 
-- User Story A: Joe visited Ireland last year and wants to relive the experience and share with others what he saw.
-- User Story B: Amanda is planning a trip to Europe and is trying to decide if she wants to include Ireland in her trip and wants to know more about things she might see here.
-- User Story C: Liz has been to some of the locations and wants some deeper background information.
+
+
+#### Scope
+
+Home page:
+It is designed with a bold background image which covers the whole screen as the first sight of the web page and a bold sign up! button and form for prospective client.
+
+Gallery page:
+It showcases images from different training sessions with the current clients, the pictures are arranged using masonry syling. The pictures are clickable and each can open in a new page for better viewing across all devices.
+
+About page:
+It is focused on the trainer, Pelumi in which he expressed himself on his talents, passion, experinces, goals and his accademic achievement so as to inform prospective clients of his professionalism and a certified trainer.
+
+
+#### Strategy
+
+This website is basically designed to showcase what Pelumi offers his clients, which is fitness and healthy living and to attract more prospective clients.
+
+
+### User Stories:
+
+1.	A potential client looking for a local personal trainer can see what services are offered.
+2.  A potential client can see the level of intense training provided.
+3.  A potential client can see the importance of personal trainer.
+4.  Its an avenue to be healthy and socialise at the same time.
+
 
 ### Design
 
@@ -87,28 +137,19 @@ A standard layout is fully responsive on mobile devices and larger screens.
 
 #### Libraries
 
-- [Bootstrap 4](https://getbootstrap.com/) - is a framework for building responsive, mobile-first websites. I primarily used bootstrap to format layouts and for certain components such as buttons and carousel.
-
-#### Color Scheme
-
-Colours are kept to a bare minimum, using only the colors for bootstrap bg-light, bg-dark and one green. My palette is located on [Coolors](https://coolors.co/u/sean_mcmahon)
+- [Bootstrap] - is a framework for building responsive, mobile-first design websites. I primarily used bootstrap to format layouts and for certain components such as buttons.
+- [JQuery] This project uses JQuery to assist in execution of bootstrap.
+   
 
 #### Typography
 
-4 [Google Fonts](https://fonts.google.com/) were used across the site:
+ [Google Fonts](https://fonts.google.com/) Roboto was used across the site.
 
-- [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) : body text
-- [Marcellus](https://fonts.google.com/specimen/Marcellus?query=marcellus) : blockquote
-- [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quicksand) : Logo (animated)
-- [Pacifico](https://fonts.google.com/specimen/Pacifico?query=pacifico) : Logo (solid) and icon
+
 
 ### Wireframes
 
-I used Balsamiq and figma to create the wireframes.
-
-- [Balsamiq Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-wireframes.pdf)
-
-- [Figma Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-figma-wireframe.png)
+I used pen and paper for the wireframes.
 
 ##### back to [top](#table-of-contents)
 
@@ -118,88 +159,80 @@ I used Balsamiq and figma to create the wireframes.
 
 ### Existing Features
 
-- Index - The index uses three videos as links to the regions North, West and East. I used Google Earth studio to simulate drone footage of the locations, Google Earth Studio is free source once attributed with a watermark.
-
-- North/West/East - These pages use CSS Grid in order to preview the location pages.
-
-- Various - The individual location pages use floated bootstrap carousels, blockquotes and paragraphs to showcase the sites, history and mythology of various locations around Ireland.
-
-- About - This section displays an image and short bio.
-
-- Contact - This section has a form where users can sign up for updates.
+- Navigation links
+- Sign up! button which displays sign up form.
+- Font awesome dumbell icon that links to gallery.
+- logo.
+- contacts informations.
+- Social media icon links (Font awesome).
 
 ### Features Left to Implement
 
-- Google Streetview - this may be used to p rovide 360 degree views of the locations.
-
-##### back to [top](#table-of-contents)
+- Instructional vedios
+- Google map  
 
 ## Technologies Used
 
 1. **HTML (Hyper Text Markup Language):** Used throughout the site;  
-   https://developer.mozilla.org/en-US/docs/Web/HTML
+   HTML: https://www.w3.org/TR/html/ 
 2. **CSS (Cascading Style Sheets):** Used throughout the site;
    https://www.w3.org/Style/CSS/Overview.en.html
-3. **Bootstrap:** Used to aid responsive design and for componants such as navbars,buttons and carousels. https://getbootstrap.com/
-4. **Visual Studio Code:** Code Editor used to create the site.
-   https://code.visualstudio.com/
-5. **GitHub:** Used to host repos for the site https://github.
-6. **Chrome/Firefox/Bing DevTools:** Regularly used to test the the site https://developers.google.com/web/tools/chrome-devtools
-7. **W3C Markup Validation Service** Used to test code for errors; https://validator.w3.org/https://jigsaw.w3.org/css-validator/validator
-8. **Affinity Designer** Illustration software used to create logo and site icon; https://affinity.serif.com/en-gb/
-9. **Figma** Collaborative interface design tool used for some wireframing as well as creating logo; https://figma.com
-10. **Balsamiq** Used to create wireframes; https://balsamiq.com/?gclid=EAIaIQobChMIuoqlhfWi6wIV6YBQBh2f9w7DEAAYASAAEgLUTfD_BwE
-11. **Tinypng** Used to compress images; https://tinypng.com/
-12. **Croppola** Used to crop images; https://croppola.com/
-13. **mp4compress** Used to compress video files; https://www.mp4compress.com/
-14. **Windows Movie Maker** Used to create videos from Google Earth Studio Images; https://www.mp4compress.com/
+3. **Bootstrap:** Used to aid responsive design and for componants such as navbars, buttons. This project uses Bootstrap as a framework to assist in page grid layout & navigation.  Bootstrap v4.5 was used.
+   https://www.bootstrapcdn.com/
+   
+4. **JQuery:** This project uses JQuery to assist in execution of bootstrap.
+   https://jquery.com/
+5. **GitHub:** THis site was published using GitHub pages.
+   http://github.com
+6. **Chrome/Firefox/Bing DevTools:** Regularly used to test the the site 
+   https://developers.google.com/web/tools/chrome-devtools
 
-## Testing
+7. **Font Awesome:** The social icons,  Facebook, Twitter, Pinterest, Linked-in, instagram and You-tube  in the footer, dumbell icon in the home page, @ icon, cellphone icon and email icon in the contact  were imported from Font Awesome. 
+   https://fontawesome.com/icons
+
+8. **Google Font:** Roboto Font family was used throughout the project.
+   https://fonts.google.com/
+
+##Version Control
+This project was written on gitpod.
+   https://www.gitpod.io/
+
 
 ### Validators
 
-1. **HTML** [W3C HTML Validator](https://validator.w3.org/) Used to identify HTML errors
+1. **HTML** [W3C HTML Validator](https://validator.w3.org/) Used to identify HTML errors. few errors were identified, which has to do with the modal form.
+The text in the heading of the form and the label texts were not showing, which i fixed by sinmply changing the colors to black and i got this idea from slack.
+Then i made a mistake in the input, i used type="name" instead of type="text".
 
 2. **CSS** [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Used to identify CSS errors
 
-### Manual Testing
+### Testing
 
 1. **amiresponsive** [Am I Responsive](http://ami.responsivedesign.is/) Used to test responsiveness across a range of devices.
 
-2. **Developer Tools** Chrome, Firefox and Microsoft Edge web dev tools using iPhone 5 and Ipad as toggle devices to test responsiveness.
+2. **Developer Tools** Chrome, Firefox and Microsoft Edge, web dev tools using iPhone 6,7,8,x plus, smasung s and Ipad as toggle devices to test responsiveness.
 
 3. **Mobile Devices** I used my Google Pixel 3a phone and Amazon Fire tablet to test the site, using this method I found that not all of the fonts were loaded properly originally.
 
-4. **Friends and family** I asked for feedback from friends and family in order to get a users perspective.
+4. **Friends and family** I asked for feedback from friends and family in order to get a users perspective and i got very good feedback.
 
-5. **Contact Form** On the contact page the form may not be submitted without using correct syntax for the e-mail input or if either input is blank. Once inputs are filled properly the sign up button will lead to a form dump page.
+5.**Lighthouse** A number of issues were resolved using lighthouse. I used lighthouse to determine the rate of performance, accessibility, best practice and SEO.
 
 ## Deployment
 
 1. I Created a Github account at https://github.com
-   My account url; https://github.com/Sean-Mc-Mahon
+   My account url; https://github.com/salute03
 
 2. I installed Git and set up a username and password.
 
-3. I created a repository on Github (https://github.com/Sean-Mc-Mahon/ms1virtualireland)
+3. I created a repository on Github (https://github.com/salute03/milestone-1-project)
 
-4. On VS Code I opened the command pallette and selected Git Clone, I pasted in the URL for the repo on GitHub and selected a folder on my computer to sync to.
-
-5. I uploaded all files to my Github repository.
+4. I uploaded all files to my Github repository.
 
 6. To publish the project to see it on the web, I then went into the Settings on my respository, scrolled down to the heading, GitHub Pages. Under the Source setting, I used the drop-down menu to select master branch as a publishing source and saved it. Refreshed the github page, and you are then given a url where your page is published;
-   Your site is published at https://sean-mc-mahon.github.io/ms1virtualireland/index.html
+   Your site is published at https://salute03.github.io/milestone-1-project/
 
-7. To run this code on a local machine, you would go to my respository at
-   https://github.com/Sean-Mc-Mahon/ms1virtualireland and on the home page on the right hand side just above all the files, you will see a green button that says,
-   "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
-   To continue with cloning, you would;
 
-- Open Git Bash
-- Change the current working directory to the location where you want the cloned directory to be made.
-- Type git clone, and then paste this URL; https://github.com/BobHerold/RobertHeroldportfolio.git Press Enter. Your local clone will be created.
-
-For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ---
 
@@ -207,26 +240,23 @@ For more information about the above process; https://help.github.com/en/github/
 
 ### Content
 
-1.  Google Fonts for font styles; https://fonts.google.com/
+1. **Code Institute**
+This project was written using code institute's template https://github.com/Code-Institute-Org/gitpod-full-template. The Home page and gallery was inspired by code institute tutorial vedios of whiskey page landing and love runnimg project respectively.
 
-2.  Youtube; javascript code taken from youtube tutorial by [Bibek Bulan](https://www.youtube.com/watch?v=cBDk5B74kVQ) used for playing index.html videos on hover.
+2.**Slack**
+- The JQuery code just below the footer in the index.html was provided by JimLynx_lead in the user-centric-frontend channel because the code i ionitially copied from bootstaps was causing a disturtion on the mobile screen
+and this helps to fix the problem.
 
-3.  Youtube; Image Gallery inspired by youtube tutorial by [Follow Andrew](https://youtu.be/gvPyJ0rc944)
+3.All text was written by me and with some ideas from the project of https://github.com/eileenpeacock/milestone-1-ucd
 
-4.  Youtube; Carousel inspired by youtube tutorial by [CLever Techie](https://youtu.be/AvMl3StAju4) and overlays inspired by [LoharTalk](https://youtu.be/Cfv_9l8F0Lo)
-
-5.  Youtube; Contact form inspired by youtube tutorial by [Dev Ed](https://www.youtube.com/watch?v=IxRJ8vplzAo)
-
-6.  Youtube; SVG Animation inspired by youtube tutorial by [Dev Ed](https://youtu.be/IxRJ8vplzAo)
 
 ### Media
-
-1.  [Google Earth Studio](https://www.google.com/earth/studio/) for images used to create videos on homepage.
+All pictures in this project were gotten from https://egbinolamide87.pixieset.com/workit/
 
 ### Acknowledgements
 
-1.  My mentor Adegbenga Adeye for his support and input.
+1.  My mentor Moosa Hassan for his support and input.
 
-2.  My peers on slack for their generosity in sharing their knowledge and experience.
+2.  My peers on **slack** for their generosity in sharing their knowledge and experience. But most importanly @JimLynx_lead, @Feawos, @Toby, Anthony just to mention few.
 
 ##### back to [top](#table-of-contents)
