@@ -2,9 +2,7 @@
 
 ### [Live Site](https://salute03.github.io/milestone-1-project/)
 
-### [GitHub](https://github.com/salute03/milestone-1-project)
 
-![Various Devices](https://github.com/salute03/milestone-1-project/assets/wireframes/responsive.jpg)
 
 Grow KInesis is a Milestone 1 project, it is part of the Fullstack WEb Development Course of [Code Institute](https://codeinstitute.net/).
 
