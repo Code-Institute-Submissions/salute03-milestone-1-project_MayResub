@@ -58,17 +58,14 @@ section {
 }
 .firstsight-container {
     height: 100vh;
-
-    background: url(../images/EOP_9282.jpg) no-repeat bottom right fixed; 
+   background: url(../images/EOP_9282.jpg) no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: relative;
 
 }
