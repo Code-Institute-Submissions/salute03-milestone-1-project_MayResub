@@ -50,10 +50,8 @@ This page basically introduces Pelumi, the workout instructor and gives a little
 3. **Mobile Devices** I used my Google Pixel 3a phone and Amazon Fire tablet to test the site, using this method I found that not all of the fonts were loaded properly originally.
 4. **Friends and family** I asked for feedback from friends and family in order to get a users perspective and i got very good feedback.
 5.**Lighthouse** A number of issues were resolved using lighthouse. I used lighthouse to determine the rate of performance, accessibility, best practice and SEO.
-
-
-6.**[W3C HTML Validator]**(https://validator.w3.org/) Used to identify HTML errors. few errors were identified, which has to do with the modal form.
-7.**[W3C CSS Validator]**(https://jigsaw.w3.org/css-validator/) Used to identify CSS errors.
+6.**W3C HTML Validator**(https://validator.w3.org/) Used to identify HTML errors. few errors were identified, which has to do with the modal form.
+7.**W3C CSS Validator**(https://jigsaw.w3.org/css-validator/) Used to identify CSS errors.
 
 ### testing image
 [light house](assets/images/test.jpg)
